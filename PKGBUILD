@@ -1,4 +1,4 @@
-# Maintainer: ironashram <sysdadmin@m1k.cloud>
+# Maintainer: Michele Palazzi <sysdadmin@m1k.cloud>
 # Contributor: Levente Polyak <anthraxx[at]archlinux[dot]org>
 # Contributor: Jan Alexander Steffens (heftig) <jan.steffens@gmail.com>
 # Contributor: Ionut Biru <ibiru@archlinux.org>
@@ -7,8 +7,8 @@
 # Contributor: Anders Bostrom <anders.bostrom@home.se>
 
 pkgbase=thunderbird
-pkgname=($pkgbase-appmenu)
-pkgver=115.8.0
+pkgname=($pkgbase-globalmenu-m1k)
+pkgver=115.8.1
 pkgrel=1
 pkgdesc='Standalone mail and news reader from mozilla.org'
 url='https://www.thunderbird.net/'
@@ -164,7 +164,7 @@ END
     "$pkgdir/usr/lib/$pkgbase/thunderbird-bin"
 }
 
-sha512sums=('a0bdd34bebda4973f714422293f10a5a96c2b12f097c68d76fa37c48943fdbfb32dd2e504faa0b88fd699118b1903e18c3bb54cb32cd5e2ff60c09966b23e79c'
+sha512sums=('4d28f865f482a0d4c91f26ef26709a00f78955699b4ca191f960bcdb8d2c0c95c2a8e8782129d5660e192c605cba021fac553b13868861086a608f0c50aa5da7'
             'SKIP'
             '6918c0de63deeddc6f53b9ba331390556c12e0d649cf54587dfaabb98b32d6a597b63cf02809c7c58b15501720455a724d527375a8fb9d757ccca57460320734'
             '5cd3ac4c94ef6dcce72fba02bc18b771a2f67906ff795e0e3d71ce7db6d8a41165bd5443908470915bdbdb98dddd9cf3f837c4ba3a36413f55ec570e6efdbb9f'
