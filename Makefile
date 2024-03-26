@@ -24,4 +24,7 @@ upload:
 	s3cmd --config ~/.s3cfg.minio sync --delete-removed --follow-symlinks --acl-public ~/arch-local-repo/ s3://arch-local-repo/
 
 .PHONY: all
-all: clean get_src build repo-add upload
+all: get_src build repo-add upload
+
+.PHONY: post-build
+post-build: repo-add upload
