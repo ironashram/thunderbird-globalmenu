@@ -8,7 +8,7 @@
 
 pkgbase=thunderbird
 pkgname=($pkgbase-globalmenu-m1k)
-pkgver=115.9.0
+pkgver=115.10.1
 pkgrel=1
 pkgdesc='Standalone mail and news reader from mozilla.org'
 url='https://www.thunderbird.net/'
@@ -164,7 +164,7 @@ END
     "$pkgdir/usr/lib/$pkgbase/thunderbird-bin"
 }
 
-sha512sums=('8ff0bed6e6d7f337ebae09011a10b59343ae7a8355ed1da2d72ec0d4218010adfae78e42565e5b784df26cef4702f313dc9616ac5ca5530fb772d77bdf7f2ea4'
+sha512sums=('0324811d3e7e6228bb45cbf01e8a4a08b8386e22d1b52eb79f9a9a3bda940eb9d534ec1230961e9a998a0162c299a1ad49d23c5fbfa8e287896bcc0fd1c398e0'
             'SKIP'
             '6918c0de63deeddc6f53b9ba331390556c12e0d649cf54587dfaabb98b32d6a597b63cf02809c7c58b15501720455a724d527375a8fb9d757ccca57460320734'
             '5cd3ac4c94ef6dcce72fba02bc18b771a2f67906ff795e0e3d71ce7db6d8a41165bd5443908470915bdbdb98dddd9cf3f837c4ba3a36413f55ec570e6efdbb9f'
